@@ -25,7 +25,7 @@ func (c Circle) Area() float32 {
 	return float32(math.Pi) * (c.radius * c.radius)
 }
 
-func main() {
+func run() {
 	square := Square{10.5}
 	circle := Circle{10.3}
 
